@@ -17,7 +17,10 @@ function App() {
         </div>
       </div>
       <div className="Page-About">
-        testestest
+        <div className="Page-Title">
+          About Me
+        </div>
+        <div className="Page-About-Container">asdf</div>
       </div>
     </div>
   );
