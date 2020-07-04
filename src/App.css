@@ -1,7 +1,7 @@
 .Page-Home {
   display: flex;
   flex-direction: column;
-  background: #262934;
+  background: #1E242F;
   justify-content: center;
   align-items: center;
   width: 99vw;
@@ -24,6 +24,23 @@
   color: white;
 }
 
+.Page-Home-Container {
+  display: flex;
+  flex-direction: row;;
+  position: absolute;
+  top: 55%;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.Page-Home-Button {
+	font-family: 'Raleway', sans-serif;
+  color: white;
+  border: 1px solid white;
+  font-size: 16pt;
+  padding: 7px 15px 7px 15px;
+}
+
 .Page-About {
   display: flex;
   background: #FFFFFF;
@@ -33,10 +50,22 @@
 
 .NavBar {
   width: 99vw;
-  overflow: hidden;
+  height: 50px;
   background-color: #1E242F;
+  border-bottom: 3px solid #C01E6C;
+}
+
+.NavBar-Container {
+  margin: 0% 15% 0% 15%;
 }
 
 .NavBar-Link {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14pt;
+  float: left;
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
 }

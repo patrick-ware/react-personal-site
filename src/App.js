@@ -14,12 +14,20 @@ function App() {
         <div className="Page-Home-Title">
         Patrick Ware
         </div>
+          <div className="Page-Home-Container">
+            <div className="Page-Home-Button"> About Me </div>
+            <div className="Page-Home-Button"> Projects </div>
+            <div className="Page-Home-Button"> Contact </div>
+
+        </div>
       </div>
       <div className="NavBar">
-        <a className="NavBar-Link" href="#home">Home</a>
-        <a className="NavBar-Link" href="#news">About Me</a>
-        <a className="NavBar-Link" href="#news">Projects</a>
-        <a className="NavBar-Link" href="#contact">Contact</a>
+        <div className="NavBar-Container">
+          <a className="NavBar-Link" href="#home">Home</a>
+          <a className="NavBar-Link" href="#aboutme">About Me</a>
+          <a className="NavBar-Link" href="#projects">Projects</a>
+          <a className="NavBar-Link" href="#contact">Contact</a>
+        </div>
       </div>
       <div className="Page-About">
         testestest
