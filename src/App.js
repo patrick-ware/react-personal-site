@@ -15,6 +15,12 @@ function App() {
         Patrick Ware
         </div>
       </div>
+      <div className="NavBar">
+        <a className="NavBar-Link" href="#home">Home</a>
+        <a className="NavBar-Link" href="#news">About Me</a>
+        <a className="NavBar-Link" href="#news">Projects</a>
+        <a className="NavBar-Link" href="#contact">Contact</a>
+      </div>
       <div className="Page-About">
         testestest
       </div>
