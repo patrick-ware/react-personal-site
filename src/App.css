@@ -1,8 +1,19 @@
+:root{
+  --Background-A: #F5F5F5;
+  --Background-B: #FFFFFF;
+  --Background-C: #262934;
+  --Contact-Box: #20242C;
+  --NavBar: #1E242F;
+  --Heading-Text: #46474A;
+  --Body-Text: #626262;
+  --Highlight: #61FAAE;
+}
+
 .NavBar {
   width: 99vw;
   height: 50px;
-  background-color: #1E242F;
-  border-bottom: 5px solid #61FAAE;
+  background-color: var(--NavBar);
+  border-bottom: 5px solid var(--Highlight);
 }
 
 .NavBar-Container {
@@ -37,6 +48,7 @@
 .Page-Title {
   margin: 3% 0% 3% 0%;
 	font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 	font-size: 24pt;
   color: #46474A;
 }
@@ -45,15 +57,19 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #262934;
-  color: #626262;
+  background-color: var(--Background-A);
   height: 70%;
   width: 60%;
 }
 
+.Page-About-Body {
+  font-size: 16pt;
+  color: var(--Body-Text);
+}
+
 .Headshot {
 	border-radius:50%;
-  border: 5px solid #61FAAE;
+  border: 5px solid var(--Highlight);
 	width:300px;
   margin: 2% auto 4% auto;
 }

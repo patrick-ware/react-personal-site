@@ -36,10 +36,18 @@
 
 .Page-Home-Button {
 	font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   color: white;
   border: 1px solid white;
   font-size: 12pt;
   padding: 10px 0px 10px 0px;
   width: 95px;
   text-align: center;
+  transition: 0.4s;
+}
+
+.Page-Home-Button:hover {
+  background: var(--Highlight);
+  border: 1px solid var(--Highlight);
+  color: var(--NavBar);
 }
