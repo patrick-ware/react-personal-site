@@ -50,7 +50,7 @@
 	font-family: 'Raleway', sans-serif;
   font-weight: 700;
 	font-size: 24pt;
-  color: #46474A;
+  color: var(--Heading-Text);
 }
 
 .Page-About-Container {
@@ -62,9 +62,21 @@
   width: 60%;
 }
 
-.Page-About-Body {
+.Page-About-Title-Bar{
+ margin: 0% 4% 2% 4%;
+}
+
+.Page-About-Greeting {
+	font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+	font-size: 24pt;
+  color: var(--Heading-Text); 
+}
+
+.Page-About-Bio {
   font-size: 16pt;
   color: var(--Body-Text);
+  margin: 0% 4% 2% 4%;
 }
 
 .Headshot {
@@ -72,4 +84,19 @@
   border: 5px solid var(--Highlight);
 	width:300px;
   margin: 2% auto 4% auto;
+}
+
+.Icon {
+    font-size: 20pt;
+    color: var(--NavBar);
+    margin: 5px;
+/*  background-color: var(--NavBar);*/
+/*  color: white;*/
+/*  width: 20px;*/
+/*  height: 20px;*/
+/*  border-radius: 50%;*/
+/*  text-align: center;*/
+/*  line-height: 20px;*/
+/*  vertical-align: middle;*/
+/*  padding: 20px;*/
 }
