@@ -86,17 +86,19 @@
   margin: 2% auto 4% auto;
 }
 
+.Icon-Container {
+  margin: 5px;
+  display: inline-block;
+  background-color: var(--NavBar);
+  color: white;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  text-align: center;
+}
+
 .Icon {
-    font-size: 20pt;
-    color: var(--NavBar);
-    margin: 5px;
-/*  background-color: var(--NavBar);*/
-/*  color: white;*/
-/*  width: 20px;*/
-/*  height: 20px;*/
-/*  border-radius: 50%;*/
-/*  text-align: center;*/
-/*  line-height: 20px;*/
-/*  vertical-align: middle;*/
-/*  padding: 20px;*/
+  font-size: 20pt;
+  color: var(--NavBar);
+  color: white;
 }
