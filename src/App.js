@@ -29,19 +29,22 @@ function App() {
         <div className="Page-About-Container">
 				  <img className="Headshot" src={Headshot}/>
           <div className="Page-About-Title-Bar">
-            <div className="Page-About-Greeting">Hi, I'm Patrick!</div>
-            <FontAwesomeIcon className="Icon" icon={['fas', 'circle','stack-2x']} />
+            <div className="Page-About-Greeting">Hi, I'm Patrick!
+            </div>
+            <div className="Links">
+              <FontAwesomeIcon className="Icon" icon={['fas', 'circle','stack-2x']} />
             <div className="Icon-Container">
-            <FontAwesomeIcon className="Icon" icon={['fab', 'github']} />
+              <FontAwesomeIcon className="Icon" icon={['fab', 'github']} />
             </div>
             <div className="Icon-Container">
-            <FontAwesomeIcon className="Icon" icon={['fab', 'linkedin-in']} />
+              <FontAwesomeIcon className="Icon" icon={['fab', 'linkedin-in']} />
             </div>
             <div className="Icon-Container">
-            <FontAwesomeIcon className="Icon" icon={['fas' , 'file-pdf']} />
+              <FontAwesomeIcon className="Icon" icon={['fas' , 'file-pdf']} />
+            </div>
           </div>
-          </div>
-          <div className="Page-About-Bio"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+        </div>
+      <div className="Page-About-Bio"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
         </div>
       </div>
     </div>

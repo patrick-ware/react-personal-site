@@ -64,9 +64,12 @@
 
 .Page-About-Title-Bar{
  margin: 0% 4% 2% 4%;
+ display: flex;
+ justify-content: space-between;
 }
 
 .Page-About-Greeting {
+  display: inline;
 	font-family: 'Raleway', sans-serif;
   font-weight: 700;
 	font-size: 24pt;
@@ -86,9 +89,16 @@
   margin: 2% auto 4% auto;
 }
 
+.Links {
+  display: flex;
+  flex-direction: row;
+}
+
 .Icon-Container {
   margin: 5px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--NavBar);
   color: white;
   width: 3em;
