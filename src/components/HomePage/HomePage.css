@@ -25,11 +25,19 @@
   color: white;
 }
 
+.Page-Home-Subtitle {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16pt;
+  position: absolute;
+  top: 48%;
+  color: white;
+}
+
 .Page-Home-Container {
   display: flex;
   flex-direction: row;;
   position: absolute;
-  top: 49%;
+  top: 53%;
   width: 370px;
   justify-content: space-between;
 }

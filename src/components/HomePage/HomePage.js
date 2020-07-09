@@ -13,6 +13,9 @@ function HomePage(props) {
       <div className="Page-Home-Title">
       Patrick Ware
       </div>
+      <div className="Page-Home-Subtitle">
+      Oakland-based software engineer
+      </div>
         <div className="Page-Home-Container">
           <div className="Page-Home-Button"> About Me </div>
           <div className="Page-Home-Button"> Projects </div>
