@@ -1,0 +1,26 @@
+.NavBar {
+  width: 99vw;
+  height: 50px;
+  background-color: var(--NavBar);
+  border-bottom: 5px solid var(--Highlight);
+}
+
+.NavBar-Container {
+  margin: 0% 15% 0% 15%;
+}
+
+.NavBar-Link {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14pt;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.NavBar-Link:hover {
+  color: #61FAAE;
+}

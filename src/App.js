@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import HomePage from './components/HomePage/HomePage.js'
+import NavBar from './components/NavBar/NavBar.js'
 import Headshot from './static/Headshot_Color.JPG'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -14,14 +15,7 @@ function App() {
   return (
     <div>
       <HomePage />
-      <div className="NavBar">
-        <div className="NavBar-Container">
-          <a className="NavBar-Link" href="#home">Home</a>
-          <a className="NavBar-Link" href="#aboutme">About Me</a>
-          <a className="NavBar-Link" href="#projects">Projects</a>
-          <a className="NavBar-Link" href="#contact">Contact</a>
-        </div>
-      </div>
+      <NavBar />
       <div className="Page-About">
         <div className="Page-Title">
           About Me
