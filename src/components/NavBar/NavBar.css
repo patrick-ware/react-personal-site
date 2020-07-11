@@ -10,6 +10,7 @@
 }
 
 .NavBar-Link {
+  text-decoration: none;
 	font-family: 'Raleway', sans-serif;
 	font-size: 14pt;
   float: left;
@@ -17,10 +18,10 @@
   color: white;
   text-align: center;
   padding: 14px;
-  text-decoration: none;
   transition: 0.3s;
 }
 
 .NavBar-Link:hover {
+  text-decoration: none;
   color: #61FAAE;
 }
