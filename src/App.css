@@ -13,8 +13,8 @@
   position: relative;
   margin: 3% 0% 0% 0%;
 	font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-	font-size: 24pt;
+  font-weight: 900;
+	font-size: 30pt;
   color: var(--Heading-Text);
 }
 
@@ -59,6 +59,7 @@
 }
 
 .Project-Img {
-	width:500px;
+	max-width: 500px;
+  min-width: 200px;
   margin: 2% auto 4% auto;
 }
