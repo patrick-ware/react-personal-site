@@ -15,7 +15,6 @@ function componentScroll(){
 function HomePage(props) {
   return (
   <div>
-    <BrowserRouter>
     <div className="Page-Home">
       <img 
         className="Page-Home-Img"
@@ -28,15 +27,11 @@ function HomePage(props) {
       Oakland-based software engineer
       </div>
         <div className="Page-Home-Container">
-        <Link to="#aboutme" className="Page-Home-Button" onClick={componentScroll}> About Me </Link> 
+          <div className="Page-Home-Button" onClick={componentScroll}> About Me </div>
           <div className="Page-Home-Button"> Projects </div>
           <div className="Page-Home-Button"> Contact </div>
-            <Switch>
-              <Route exact path='#aboutme' component={AboutMe} />
-            </Switch>
         </div>
       </div>
-     </BrowserRouter>
     </div>
   );
 }

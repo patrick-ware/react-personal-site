@@ -8,12 +8,23 @@
 }
 
 .Page-Title {
+  position: relative;
   margin: 3% 0% 3% 0%;
 	font-family: 'Raleway', sans-serif;
   font-weight: 700;
 	font-size: 24pt;
   color: var(--Heading-Text);
 }
+
+/*.Page-Title:after {*/
+/*  position: absolute;*/
+/*  content: "";*/
+/*  width: 80px;*/
+/*  height: 3px;*/
+/*  bottom: 0%;*/
+/*  left: 25%;*/
+/*  border-bottom: 3px solid var(--Heading-Text);*/
+/*}*/
 
 .Page-About-Container {
   display: flex;

@@ -8,3 +8,21 @@
   --Body-Text: #626262;
   --Highlight: #61FAAE;
 }
+
+.Page-Projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F5F5F5;
+  width: 99vw;
+  height: 100vh;
+}
+
+.Page-Projects-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--Background-B);
+  height: 70%;
+  width: 60%;
+}

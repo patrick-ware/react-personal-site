@@ -12,6 +12,13 @@ function App() {
       <HomePage />
       <NavBar />
       <AboutMe />
+      <div className="Page-Projects">
+        <div className="Page-Title">
+          Projects
+        </div>
+        <div className="Page-Projects-Container">
+        </div>
+      </div>
     </div>
   );
 }
