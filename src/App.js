@@ -14,6 +14,11 @@ function App() {
       <NavBar />
       <AboutMe />
       <Projects />
+      <div className="Page-Contact">
+        <div className="Page-Contact-Title">
+          Contact
+        </div>
+      </div>
     </div>
   );
 }

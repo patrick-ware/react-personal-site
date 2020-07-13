@@ -4,9 +4,17 @@ import './HomePage.css';
 import BigSur from '../../static/BigSur.jpg'
 import AboutMe from '../AboutMe/AboutMe.js'
 
-function componentScroll(){
+function componentScrollAboutMe(){
   window.scrollTo({
     top: 1000,
+    left: 0,
+    behavior: 'smooth'
+  });
+}
+
+function componentScrollProjects(){
+  window.scrollTo({
+    top: 1900,
     left: 0,
     behavior: 'smooth'
   });
@@ -27,8 +35,12 @@ function HomePage(props) {
       Oakland-based software engineer
       </div>
         <div className="Page-Home-Container">
-          <div className="Page-Home-Button" onClick={componentScroll}> About Me </div>
-          <div className="Page-Home-Button"> Projects </div>
+          <div className="Page-Home-Button" onClick={componentScrollAboutMe}>
+            About Me 
+          </div>
+          <div className="Page-Home-Button"onClick={componentScrollProjects}>
+            Projects 
+          </div>
           <div className="Page-Home-Button"> Contact </div>
         </div>
       </div>
