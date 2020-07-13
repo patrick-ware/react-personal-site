@@ -74,14 +74,14 @@
   justify-content: center;
   background-color: var(--NavBar);
   color: white;
-  width: 3em;
-  height: 3em;
+  width: 2.2em;
+  height: 2.2em;
   border-radius: 50%;
   text-align: center;
   transition: 0.3s;
 }
 
 .Icon {
-  font-size: 20pt;
+  font-size: 16pt;
   color: white;
 }
