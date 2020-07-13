@@ -16,8 +16,11 @@ function App() {
       <Projects />
       <div className="Page-Contact">
         <div className="Page-Contact-Title">
-          Contact
+          Contact Me
         </div>
+<textarea>
+  Hello there, this is some text in a text area
+</textarea>
       </div>
     </div>
   );
