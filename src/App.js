@@ -19,7 +19,7 @@ function App() {
           Contact Me
         </div>
 <textarea>
-  Hello there, this is some text in a text area
+Test contact form
 </textarea>
       </div>
     </div>
