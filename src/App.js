@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { StickyContainer, Sticky } from 'react-sticky'
 import './App.css';
 import HomePage from './components/HomePage/HomePage.js'
 import NavBar from './components/NavBar/NavBar.js'
@@ -11,16 +12,23 @@ function App() {
   return (
     <div>
       <HomePage />
-      <NavBar />
+      <StickyContainer>
+        <Sticky> 
+          {({ 
+            style }) => (
+              <NavBar />
+            )}
+        </Sticky>
+      </StickyContainer>
       <AboutMe />
       <Projects />
       <div className="Page-Contact">
         <div className="Page-Contact-Title">
           Contact Me
         </div>
-<textarea>
-Test contact form
-</textarea>
+        <textarea>
+        Test contact form
+        </textarea>
       </div>
     </div>
   );
