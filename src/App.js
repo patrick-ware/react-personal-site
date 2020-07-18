@@ -29,14 +29,17 @@ function App() {
   return (
     <div>
       <HomePage
-      aboutPage={componentScrollAboutMe}
-      projectPage={componentScrollProjects} 
+        aboutPage={componentScrollAboutMe}
+        projectPage={componentScrollProjects} 
       />
       <StickyContainer>
         <Sticky> 
           {({ style }) => (
             <div style={style}>
-              <NavBar/>
+              <NavBar
+                aboutPage={componentScrollAboutMe}
+                projectPage={componentScrollProjects} 
+              />
             </div>
           )}
         </Sticky>
