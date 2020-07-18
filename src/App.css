@@ -1,4 +1,5 @@
-:root{
+:root {
+    scroll-behavior: smooth;
   --Background-A: #F5F5F5;
   --Background-B: #FFFFFF;
   --Background-C: #262934;
@@ -8,6 +9,7 @@
   --Body-Text: #626262;
   --Highlight: #61FAAE;
 }
+
 
 .Page-Contact {
   display: flex;
