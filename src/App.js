@@ -8,10 +8,30 @@ import NavBar from './components/NavBar/NavBar.js'
 import AboutMe from './components/AboutMe/AboutMe.js'
 import Projects from './components/Projects/Projects.js'
 
+function componentScrollAboutMe(){
+  window.scrollTo({
+    top: 1000,
+    left: 0,
+    behavior: 'smooth'
+  });
+}
+
+function componentScrollProjects(){
+  window.scrollTo({
+    top: 2450,
+    left: 0,
+    behavior: 'smooth'
+  });
+}
+
+
 function App() {
   return (
     <div>
-      <HomePage />
+      <HomePage
+      aboutPage={componentScrollAboutMe}
+      projectPage={componentScrollProjects} 
+      />
       <StickyContainer>
         <Sticky> 
           {({ style }) => (

@@ -10,7 +10,7 @@ library.add(fab, fas)
 
 function AboutMe(props) {
   return (
-  <div className="Page-About">
+  <div className="Page-About" id="about">
     <div className="Page-Title">
       About Me
     </div>
