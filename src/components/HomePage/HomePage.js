@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import * as Scroll from 'react-scroll';
 import './HomePage.css';
 import BigSur from '../../static/BigSur.jpg'
 import AboutMe from '../AboutMe/AboutMe.js'
+import Projects from '../Projects/Projects.js'
 
 function HomePage(props) {
   return (
@@ -20,18 +19,15 @@ function HomePage(props) {
       Oakland-based software engineer
       </div>
         <div className="Page-Home-Container">
-          <Link 
-            to="about"
-            offset={-50}
-          > 
-            <div className="Page-Home-Button">
-              About Me 
-            </div>
-          </Link>
-          <div className="Page-Home-Button"onClick={props.projectPage}>
+          <a className="Page-Home-Button" href="#about">
+            About Me 
+          </a>
+          <a className="Page-Home-Button" href="#projects">
             Projects 
-          </div>
-          <div className="Page-Home-Button"> Contact </div>
+          </a>
+          <a className="Page-Home-Button" href="#contact"> 
+            Contact 
+          </a>
         </div>
       </div>
     </div>

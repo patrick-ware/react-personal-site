@@ -9,49 +9,44 @@ import NavBar from './components/NavBar/NavBar.js'
 import AboutMe from './components/AboutMe/AboutMe.js'
 import Projects from './components/Projects/Projects.js'
 
-function componentScrollAboutMe(){
-  window.scrollTo({
-    top: 1000,
-    left: 0,
-    behavior: 'smooth'
-  });
-}
+//function componentScrollAboutMe(){
+//  window.scrollTo({
+//    top: 1000,
+//    left: 0,
+//    behavior: 'smooth'
+//  });
+//}
 
-function componentScrollProjects(){
-  window.scrollTo({
-    top: 1950,
-    left: 0,
-    behavior: 'smooth'
-  });
-}
+//function componentScrollProjects(){
+//  window.scrollTo({
+//    top: 1950,
+//    left: 0,
+//    behavior: 'smooth'
+//  });
+//}
 
 function App() {
   return (
     <div>
-      <HomePage
-        aboutPage={componentScrollAboutMe}
-        projectPage={componentScrollProjects} 
-      />
+      <HomePage/>
       <StickyContainer>
         <Sticky> 
           {({ style }) => (
             <div style={style}>
               <NavBar
-                aboutPage={componentScrollAboutMe}
-                projectPage={componentScrollProjects} 
               />
             </div>
           )}
         </Sticky>
       <AboutMe />
       <Projects />
-      <div className="Page-Contact">
+      <div className="Page-Contact" id="contact">
         <div className="Page-Contact-Title">
           Contact Me
         </div>
-<textarea>
-Test contact form
-</textarea>
+        <textarea>
+        Test contact form
+        </textarea>
       </div>
       </StickyContainer>
     </div>

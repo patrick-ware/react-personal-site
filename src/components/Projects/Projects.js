@@ -10,83 +10,83 @@ library.add(fab, fas)
 
 function Projects(props) {
   return (
-      <div className="Page-Projects">
-        <div className="Page-Projects-Title">
-          Projects
-        </div>
-        <div className="Page-Projects-Container">
-          <div className="Page-Projects-Title-Bar">
-            <div className="Page-Projects-Name">
-              Project ABC
-            </div>
-            <div className="Project-Icon-Container">
-              <a 
-                className="Icon-Container" 
-                href="https://github.com/settings/profile"
-                target="_blank"
-              >
-                <FontAwesomeIcon 
-                  className="Icon" 
-                  icon={['fab', 'github']} 
-                />
-              </a>
-              <a 
-                className="Icon-Container" 
-                href="https://github.com/settings/profile"
-                target="_blank"
-              >
-                <FontAwesomeIcon 
-                  className="Icon" 
-                  icon={['fas', 'link']} 
-                />
-              </a>
-            </div>
-          </div>
-          <div className="Page-Projects-Desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed...
-          </div>
-          <div className="Page-Projects-Desc">
-            React / Python
-          </div>
-          <img className="Project-Img" src={ProjectPlaceholder} />
-        </div>
-        <div className="Page-Projects-Container">
-          <div className="Page-Projects-Title-Bar">
-            <div className="Page-Projects-Name">
-              Project XYZ
-            </div>
-            <div className="Project-Icon-Container">
-              <a 
-                className="Icon-Container" 
-                href="https://github.com/settings/profile"
-                target="_blank"
-              >
-                <FontAwesomeIcon 
-                  className="Icon" 
-                  icon={['fab', 'github']} 
-                />
-              </a>
-              <a 
-                className="Icon-Container" 
-                href="https://github.com/settings/profile"
-                target="_blank"
-              >
-                <FontAwesomeIcon 
-                  className="Icon" 
-                  icon={['fas', 'link']} 
-                />
-              </a>
-            </div>
-          </div>
-          <div className="Page-Projects-Desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed...
-          </div>
-          <div className="Page-Projects-Desc">
-            React / Python
-          </div>
-          <img className="Project-Img" src={ProjectPlaceholder} />
-        </div>
+    <div className="Page-Projects" id="projects">
+      <div className="Page-Projects-Title">
+        Projects
       </div>
+      <div className="Page-Projects-Container">
+        <div className="Page-Projects-Title-Bar">
+          <div className="Page-Projects-Name">
+            Project ABC
+          </div>
+          <div className="Project-Icon-Container">
+            <a 
+              className="Icon-Container" 
+              href="https://github.com/settings/profile"
+              target="_blank"
+            >
+              <FontAwesomeIcon 
+                className="Icon" 
+                icon={['fab', 'github']} 
+              />
+            </a>
+            <a 
+              className="Icon-Container" 
+              href="https://github.com/settings/profile"
+              target="_blank"
+            >
+              <FontAwesomeIcon 
+                className="Icon" 
+                icon={['fas', 'link']} 
+              />
+            </a>
+          </div>
+        </div>
+        <div className="Page-Projects-Desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed...
+        </div>
+        <div className="Page-Projects-Desc">
+          React / Python
+        </div>
+        <img className="Project-Img" src={ProjectPlaceholder} />
+      </div>
+      <div className="Page-Projects-Container">
+        <div className="Page-Projects-Title-Bar">
+          <div className="Page-Projects-Name">
+            Project XYZ
+          </div>
+          <div className="Project-Icon-Container">
+            <a 
+              className="Icon-Container" 
+              href="https://github.com/settings/profile"
+              target="_blank"
+            >
+              <FontAwesomeIcon 
+                className="Icon" 
+                icon={['fab', 'github']} 
+              />
+            </a>
+            <a 
+              className="Icon-Container" 
+              href="https://github.com/settings/profile"
+              target="_blank"
+            >
+              <FontAwesomeIcon 
+                className="Icon" 
+                icon={['fas', 'link']} 
+              />
+            </a>
+          </div>
+        </div>
+        <div className="Page-Projects-Desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed...
+        </div>
+        <div className="Page-Projects-Desc">
+          React / Python
+        </div>
+        <img className="Project-Img" src={ProjectPlaceholder} />
+      </div>
+    </div>
   );
 }
 
