@@ -20,9 +20,13 @@ function HomePage(props) {
       Oakland-based software engineer
       </div>
         <div className="Page-Home-Container">
-          <Link to="about"> <div className="Page-Home-Button">
-            About Me 
-          </div>
+          <Link 
+            to="about"
+            offset={-50}
+          > 
+            <div className="Page-Home-Button">
+              About Me 
+            </div>
           </Link>
           <div className="Page-Home-Button"onClick={props.projectPage}>
             Projects 
