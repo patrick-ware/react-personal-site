@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { StickyContainer, Sticky } from 'react-sticky';
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
