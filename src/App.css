@@ -36,6 +36,10 @@
   transition: 0.3s;
 }
 
+.NavBar-Link:active {
+  color: var(--Highlight);
+}
+
 .NavBar-Link:hover {
   text-decoration: none;
   color: #61FAAE;
