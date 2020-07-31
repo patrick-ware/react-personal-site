@@ -3,6 +3,9 @@
   height: 50px;
   background-color: var(--NavBar);
   border-bottom: 5px solid var(--Highlight);
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 0;
 }
 
 .NavBar-Container {

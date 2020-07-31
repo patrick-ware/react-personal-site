@@ -14,18 +14,18 @@ function App() {
   return (
     <div>
       <HomePage/>
-      <StickyContainer>
+      {/*<StickyContainer>
         <Sticky> 
           {({ style }) => (
-            <div style={style}>
+            <div style={style}>*/}
               <NavBar/>
-            </div>
+            {/*</div>
           )}
-        </Sticky>
+        </Sticky>*/}
       <AboutMe />
       <Projects />
       <Contact />
-  </StickyContainer>
+  {/*</StickyContainer>*/}
 </div>
   );
 }
