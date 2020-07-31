@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import HomePage from './components/HomePage/HomePage.js'
 import AboutMe from './components/AboutMe/AboutMe.js'
@@ -39,8 +38,8 @@ function App() {
             {
               showMenu 
                 ? (
-                  <div className="menu">
-                TEST
+                  <div className="NavBar-Menu">
+                    <div className="NavBar-Menu-Item">TEST</div>
                   </div>
                 )
                 : (null
