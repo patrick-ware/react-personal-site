@@ -24,18 +24,6 @@
   margin: 0% 15% 0% 15%;
 }
 
-.NavBar-Link {
-  text-decoration: none;
-	font-family: 'Raleway', sans-serif;
-	font-size: 14pt;
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  transition: 0.3s;
-}
-
 .NavBar-Link:hover {
   text-decoration: none;
   color: #61FAAE;
@@ -51,9 +39,32 @@
   padding: 14px;
 }
 
-.Menu-Icon {
-  font-size: 16pt;
+.NavBar-Link {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14pt;
+  float: left;
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px;
   transition: 0.3s;
 }
 
+.Menu-Icon {
+  display: none;
+}
+
+/* Styling for smartphones and tablets */
+@media only screen and (max-width: 768px) {
+  .NavBar-Link:not(:first-child) {
+    display: none;
+  }
+  
+  .Menu-Icon {
+    font-size: 16pt;
+    color: white;
+    transition: 0.3s;
+    display: block;
+  }
+}
