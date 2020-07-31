@@ -25,9 +25,9 @@ function App() {
           <a className="NavBar-Link" href="#about">About Me</a>
           <a className="NavBar-Link" href="#projects">Projects</a>
           <a className="NavBar-Link" href="#contact">Contact</a>
-          <a className="NavBar-Link" href="#">
+          <a className="NavBar-Link-Menu" href="#">
             <FontAwesomeIcon 
-              className="Icon" 
+              className="Menu-Icon" 
               icon={['fas', 'bars']} 
             />
           </a>

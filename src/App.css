@@ -36,11 +36,24 @@
   transition: 0.3s;
 }
 
-.NavBar-Link:active {
-  color: var(--Highlight);
-}
-
 .NavBar-Link:hover {
   text-decoration: none;
   color: #61FAAE;
 }
+
+.Menu-Icon:hover {
+  text-decoration: none;
+  color: #61FAAE;
+}
+
+.NavBar-Link-Menu {
+  float: right;
+  padding: 14px;
+}
+
+.Menu-Icon {
+  font-size: 16pt;
+  color: white;
+  transition: 0.3s;
+}
+
