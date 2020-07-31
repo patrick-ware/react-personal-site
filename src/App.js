@@ -14,8 +14,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 library.add(fab, fas)
 
 function App() {
-  //set navbar menu visibility
+
+  // Set navbar menu visibility
   const[showMenu, setShowMenu]=useState(false)
+
+  function toggleMenu(){
+    setShowMenu(!showMenu);
+  }
+
   return (
     <div>
       <HomePage/>
@@ -25,12 +31,21 @@ function App() {
           <a className="NavBar-Link" href="#about">About Me</a>
           <a className="NavBar-Link" href="#projects">Projects</a>
           <a className="NavBar-Link" href="#contact">Contact</a>
-          <a className="NavBar-Link-Menu" href="#">
+          <div className="NavBar-Link-Menu" onClick={toggleMenu}>
             <FontAwesomeIcon 
               className="Menu-Icon" 
               icon={['fas', 'bars']} 
             />
-          </a>
+            {
+              showMenu 
+                ? (
+                  <div className="menu">
+                TEST
+                  </div>
+                )
+                : (null
+                )}
+          </div>
         </div>
       </div>
       <AboutMe />
