@@ -38,8 +38,12 @@ function App() {
             {
               showMenu 
                 ? (
-                  <div className="NavBar-Menu">
-                    <div className="NavBar-Menu-Item">TEST</div>
+                  <div className="NavBar-Menu-Container">
+                    <div className="NavBar-Menu">
+                      <a className="NavBar-Menu-Item" href="#about">About Me</a>
+                      <a className="NavBar-Menu-Item" href="#projects">Projects</a>
+                      <a className="NavBar-Menu-Item" href="#contact">Contact</a>
+                    </div>
                   </div>
                 )
                 : (null
