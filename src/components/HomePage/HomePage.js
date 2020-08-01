@@ -12,11 +12,13 @@ function HomePage(props) {
         className="Page-Home-Img"
         src={BigSur} 
       />
-      <div className="Page-Home-Title">
-      Patrick Ware
-      </div>
-      <div className="Page-Home-Subtitle">
-      Oakland-based software engineer
+      <div className="Page-Home-Title-Container">
+        <div className="Page-Home-Title">
+        Patrick Ware
+        </div>
+        <div className="Page-Home-Subtitle">
+        Oakland-based software engineer
+        </div>
       </div>
         <div className="Page-Home-Container">
           <a className="Page-Home-Button" href="#about">
