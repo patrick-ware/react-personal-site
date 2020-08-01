@@ -8,10 +8,10 @@ function HomePage(props) {
   return (
   <div>
     <div className="Page-Home">
-      <img 
-        className="Page-Home-Img"
-        src={BigSur} 
-      />
+        <img 
+          className="Page-Home-Img"
+          src={BigSur} 
+        />
       <div className="Page-Home-Title-Container">
         <div className="Page-Home-Title">
         Patrick Ware
