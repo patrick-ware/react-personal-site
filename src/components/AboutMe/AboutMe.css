@@ -4,7 +4,6 @@
   align-items: center;
   background: #FFFFFF;
   width: 99vw;
-  height: 100vh;
 }
 
 .Page-Title {
@@ -21,12 +20,11 @@
   flex-direction: column;
   justify-content: flex-start;
   background-color: var(--Background-A);
-  height: 70%;
+  padding: 50px;
   width: 60%;
 }
 
 .Page-About-Title-Bar {
- margin: 0% 4% 2% 4%;
  display: flex;
  justify-content: space-between;
 }
@@ -42,7 +40,7 @@
 .Page-About-Bio {
   font-size: 16pt;
   color: var(--Body-Text);
-  margin: 0% 4% 2% 4%;
+  background:var(--Background-A);
 }
 
 .Headshot {
@@ -90,11 +88,11 @@
   }
 
   .Page-About-Greeting {
-	  font-size: 16pt;
+	  font-size: 20pt;
   }
 
   .Page-About-Bio {
-    font-size: 12pt;
+    font-size: 16pt;
   }
 
   .Page-About-Container {

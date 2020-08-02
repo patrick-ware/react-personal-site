@@ -1,6 +1,5 @@
 
 .Page-Projects-Title {
-/*  position: relative;*/
   margin: 3% 0% 0% 0%;
 	font-family: 'Raleway', sans-serif;
   font-weight: 900;
@@ -9,10 +8,11 @@
 }
 
 .Page-Projects {
+  margin-top: 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #F5F5F5;
+  background: #FFFFFF;
   width: 99vw;
   min-height: 100vh;
   padding-bottom: 3%;
@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: var(--Background-B);
+  background-color: var(--Background-A);
   min-height: 300px;
   width: 60%;
 }
@@ -50,8 +50,9 @@
 }
 
 .Project-Img {
+  width: 100%;
 	max-width: 500px;
-  min-width: 200px;
+  height: auto;
   margin: 2% auto 4% auto;
 }
 
@@ -59,3 +60,16 @@
   display: flex;
   justify-content: center;
 }
+
+/* Styling for smartphones and tablets */
+@media only screen and (max-width: 600px) {
+  .Page-Projects-Container {
+  width: 100%;
+  }
+
+   .Page-Projects-Title {
+  /*  position: relative;*/
+	  font-size: 20pt;
+  }
+}
+
