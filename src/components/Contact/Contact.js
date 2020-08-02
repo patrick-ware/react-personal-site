@@ -16,7 +16,7 @@ function Contact(props) {
         </div>
         <div className="Page-Contact-Container">
           <div className="Page-Contact-Text">
-   I'm currently seeking new opportunities in software engineering. If you are interested in working with me, or just want to code, the best way to get in contact is via email:
+   I'm currently seeking new opportunities in software engineering. If you are interested in working with me, or just want to code, the best way to get in touch is via email:
           </div>
         <div className="Page-Contact-Email">
           patrick.r.ware@gmail.com
