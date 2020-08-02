@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   background: #FFFFFF;
+  width: 99%;
 }
 
 .Page-Title {
@@ -97,7 +98,8 @@
   }
 
   .Page-About-Container {
-    width: 100%;
+    padding: 10px;
+    width: 90%;
   }
 
   .Links {
