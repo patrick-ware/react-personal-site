@@ -85,3 +85,17 @@
   font-size: 16pt;
   color: white;
 }
+
+
+
+/* Styling for smartphones and tablets */
+@media only screen and (max-width: 600px) {
+   .Page-Title {
+  /*  position: relative;*/
+	  font-size: 20pt;
+  }
+
+  .Headshot {
+	  width:150px; 
+  }
+}

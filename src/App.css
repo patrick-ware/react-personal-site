@@ -94,4 +94,8 @@
     transition: 0.3s;
     display: block;
   }
+
+  .NavBar-Container {
+  margin: 0% 2% 0% 2%;
+  }
 }
