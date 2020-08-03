@@ -22,42 +22,42 @@ function Contact(props) {
           patrick.r.ware@gmail.com
         </div>
         <div className="Links-Contact">
-          <a 
-            className="Icon-Container-Contact" 
-            href="mailto:patrick.r.ware@gmail.com & subject=Reaching out"
-          >
+          <div className="Icon-Container-Contact">
             <FontAwesomeIcon 
               className="Icon" 
-              icon={['fas', 'envelope']} 
+              icon={['fas' , 'file-pdf']} 
             />
-          </a>
+          </div>
+            <a 
+              className="Icon-Container-Contact" 
+              href="mailto:patrick.r.ware@gmail.com & subject=Reaching out"
+            >
+              <FontAwesomeIcon 
+                className="Icon" 
+                icon={['fas', 'envelope']} 
+              />
+            </a>
+            <a 
+              className="Icon-Container-Contact" 
+              href="https://github.com/settings/profile"
+              target="_blank"
+            >
+              <FontAwesomeIcon 
+                className="Icon" 
+                icon={['fab', 'github']} 
+              />
+            </a>
           <a 
-            className="Icon-Container-Contact" 
-            href="https://github.com/settings/profile"
+            className="Icon-Container-Contact"
+            href="https://www.linkedin.com/in/patrick-ware/"
             target="_blank"
           >
             <FontAwesomeIcon 
               className="Icon" 
-              icon={['fab', 'github']} 
+              icon={['fab', 'linkedin-in']} 
             />
           </a>
-        <a 
-          className="Icon-Container-Contact"
-          href="https://www.linkedin.com/in/patrick-ware/"
-          target="_blank"
-        >
-          <FontAwesomeIcon 
-            className="Icon" 
-            icon={['fab', 'linkedin-in']} 
-          />
-        </a>
-        <div className="Icon-Container-Contact">
-          <FontAwesomeIcon 
-            className="Icon" 
-            icon={['fas' , 'file-pdf']} 
-          />
         </div>
-      </div>
       </div>
     </div>
   </div>

@@ -8,12 +8,12 @@
 }
 
 .Page-Contact-Title {
-  position: relative;
-  margin: 3% 0% 3% 0%;
+  margin: 0% 0% 3% 0%;
 	font-family: 'Raleway', sans-serif;
   font-weight: 900;
 	font-size: 30pt;
   color: #FFFFFF;
+  border-top: 60px solid #262934
 }
 
 .Page-Contact-Text {
@@ -65,6 +65,7 @@
   color: white;
 }
 
+
 /* Styling for smartphones and tablets */
 @media only screen and (max-width: 600px) {
   .Page-Contact-Title {
@@ -82,5 +83,8 @@
   .Page-Contact-Text {
     font-size: 14pt;
   }
+
+  .Page-Contact {
+    height: 80vh;
+  }
 }
-  
