@@ -7,12 +7,12 @@
 }
 
 .Page-Title {
-/*  position: relative;*/
-  margin: 3% 0% 3% 0%;
+  margin: 0% 0% 3% 0%;
 	font-family: 'Raleway', sans-serif;
   font-weight: 900;
 	font-size: 30pt;
   color: var(--Heading-Text);
+  border-top: 60px solid #FFFFFF
 }
 
 .Page-About-Container {

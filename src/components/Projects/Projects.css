@@ -1,9 +1,9 @@
 .Page-Projects-Title {
-  margin: 3% 0% 0% 0%;
 	font-family: 'Raleway', sans-serif;
   font-weight: 900;
 	font-size: 30pt;
   color: var(--Heading-Text);
+  border-top: 60px solid #FFFFFF
 }
 
 .Page-Projects {
@@ -69,5 +69,8 @@
   /*  position: relative;*/
 	  font-size: 20pt;
   }
-}
 
+  .Page-Projects-Name {
+	font-size: 18pt;
+  }
+}
