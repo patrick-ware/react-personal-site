@@ -12,7 +12,7 @@
 
 .NavBar {
   width: 100%;
-  height: 50px;
+  min-height: 50px;
   background-color: var(--NavBar);
   border-bottom: 5px solid var(--Highlight);
   position: sticky;
@@ -21,7 +21,7 @@
 }
 
 .NavBar-Container {
-  margin: 0% 15% 0% 15%;
+  margin: 0% 15% 0% 16.5%;
 }
 
 .NavBar-Link:hover {
@@ -51,7 +51,48 @@
   transition: 0.3s;
 }
 
-.NavbBar-Mobile-Link {
+.navbar-mobile {
+  width: 100vw;
+  height: 50px;
+  background-color: var(--NavBar);
+  position: sticky;
+  top: 0;
+}
+
+.NavBar-Link-Menu-mobile {
+  float: right;
+  padding: 14px 0px 14px 0px;
+}
+
+.navbar-mobile-container {
+  margin: 0% 15% 0% 16.5%;
+}
+
+.navbar-mobile-item-first {
+  border-bottom: 5px solid var(--Highlight);
+  width: 100vw;
+  min-height: 50px;
+  background-color: var(--NavBar);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14pt;
+  color: white;
+  transition: 0.3s;
+} 
+
+.navbar-mobile-item {
+  border: 2px solid white;
+  width: 100vw;
+  background-color: var(--NavBar);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14pt;
+  color: white;
+  text-align: left;
+  transition: 0.3s;
+} 
+
+.NavBar-Mobile-Link {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size: 14pt;
@@ -96,7 +137,10 @@
 
 /* Styling for smartphones and tablets */
 @media only screen and (max-width: 768px) {
-  .NavBar-Link:not(:first-child) {
+  .NavBar {
+  flex-direction: row;
+  }
+  .NavBar-Link {
     display: none;
   }
   

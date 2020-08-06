@@ -50,8 +50,6 @@
 	max-width: 500px;
   height: auto;
   margin: 2% auto 4% auto;
-  transition: 2s;
-  transition-timing-function: bezier;
 }
 
 .Project-Icon-Container {

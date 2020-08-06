@@ -35,21 +35,28 @@ function App() {
               className="Menu-Icon" 
               icon={['fas', 'bars']} 
             />
+          </div>
+        </div>
             {
               showMenu 
                 ? (
-                  <div className="NavBar-Menu-Container">
-                    <div className="NavBar-Menu">
-                      <a className="NavBar-Menu-Item" href="#about">About Me</a>
-                      <a className="NavBar-Menu-Item" href="#projects">Projects</a>
-                      <a className="NavBar-Menu-Item" href="#contact">Contact</a>
+                <div className="navbar-mobile">
+                    <div className="navbar-mobile-item-first">
+                      <div className="NavBar-Link-Menu-mobile" onClick={toggleMenu}>
+                        <FontAwesomeIcon 
+                          className="Menu-Icon" 
+                          icon={['fas', 'bars']} 
+                        />
+                      </div>
                     </div>
-                  </div>
+                    <div className="navbar-mobile-item">TESTESTESTEsT</div>
+                    <div className="navbar-mobile-item">TESTESTESTEsT</div>
+                    <div className="navbar-mobile-item">TESTESTESTEsT</div>
+                    <div className="navbar-mobile-item">TESTESTESTEsT</div>
+                </div>
                 )
                 : (null
                 )}
-          </div>
-        </div>
       </div>
       <AboutMe />
       <Projects />
