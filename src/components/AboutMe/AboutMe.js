@@ -11,9 +11,9 @@ library.add(fab, fas)
 function AboutMe(props) {
   return (
   <div className="Page-About" id="about">
-    <div className="Page-Title">
+    {/*<div className="Page-Title">
       About Me
-    </div>
+    </div> */}
     <div className="Page-About-Container">
       <img className="Headshot" src={Headshot}/>
       <div className="Page-About-Title-Bar">

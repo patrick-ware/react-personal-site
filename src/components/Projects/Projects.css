@@ -3,7 +3,7 @@
   font-weight: 900;
 	font-size: 30pt;
   color: var(--Heading-Text);
-  border-top: 60px solid #FFFFFF
+  border-top: 60px solid var(--Background-A)
 }
 
 .Page-Projects {
@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #FFFFFF;
+  background: var(--Background-A);
   width: 99vw;
   padding-bottom: 3%;
 }
@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: var(--Background-A);
+  background-color: var(--Background-B);
   padding: 50px;
   width: 60%;
 }
@@ -50,6 +50,8 @@
 	max-width: 500px;
   height: auto;
   margin: 2% auto 4% auto;
+  transition: 2s;
+  transition-timing-function: bezier;
 }
 
 .Project-Icon-Container {

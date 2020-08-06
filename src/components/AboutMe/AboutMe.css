@@ -12,14 +12,14 @@
   font-weight: 900;
 	font-size: 30pt;
   color: var(--Heading-Text);
-  border-top: 60px solid #FFFFFF
+  border-top: 60px solid #FFFFFF;
 }
 
 .Page-About-Container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: var(--Background-A);
+  background-color: var(--Background-B);
   padding: 50px;
   width: 60%;
 }
@@ -41,7 +41,7 @@
 .Page-About-Bio {
   font-size: 16pt;
   color: var(--Body-Text);
-  background:var(--Background-A);
+  background:var(--Background-B);
 }
 
 .Headshot {
