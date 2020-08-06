@@ -49,10 +49,10 @@ function App() {
                         />
                       </div>
                     </div>
-                    <div className="navbar-mobile-item">TESTESTESTEsT</div>
-                    <div className="navbar-mobile-item">TESTESTESTEsT</div>
-                    <div className="navbar-mobile-item">TESTESTESTEsT</div>
-                    <div className="navbar-mobile-item">TESTESTESTEsT</div>
+                    <a className="navbar-mobile-item" href="#">Home</a>
+                    <a className="navbar-mobile-item" href="#about">About Me</a>
+                    <a className="navbar-mobile-item" href="#projects">Projects</a>
+                    <a className="navbar-mobile-item" href="#contact">Contact</a>
                 </div>
                 )
                 : (null

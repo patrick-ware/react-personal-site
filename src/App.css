@@ -76,10 +76,11 @@
 } 
 
 .navbar-mobile-item {
-  border: 2px solid white;
-  background-color: var(--NavBar);
+  padding: 10px 0px 10px 25px;
+  background-color: var(--Background-C);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
+  display: block;
   font-size: 14pt;
   color: white;
   text-align: left;
