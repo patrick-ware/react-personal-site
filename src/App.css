@@ -62,27 +62,21 @@
 .NavBar-Link-Menu-mobile {
   float: right;
   padding: 14px 0px 14px 0px;
-}
-
-.navbar-mobile-container {
-  margin: 0% 15% 0% 16.5%;
+  right: -10px
 }
 
 .navbar-mobile-item-first {
   border-bottom: 5px solid var(--Highlight);
-  width: 100vw;
   min-height: 50px;
   background-color: var(--NavBar);
-  text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-size: 14pt;
   color: white;
   transition: 0.3s;
+  align-items: center;
 } 
 
 .navbar-mobile-item {
   border: 2px solid white;
-  width: 100vw;
   background-color: var(--NavBar);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
