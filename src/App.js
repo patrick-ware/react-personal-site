@@ -42,14 +42,14 @@ function App() {
                 ? (
                 <div className="navbar-mobile">
                     <div className="navbar-mobile-item-first">
-                      <div className="NavBar-Link-Menu-mobile" onClick={toggleMenu}>
-                        <FontAwesomeIcon 
-                          className="Menu-Icon" 
+                      <div className="NavBar-Link-Menu" onClick={toggleMenu}>
+                       <FontAwesomeIcon 
+                          className="Menu-Icon-mobile" 
                           icon={['fas', 'bars']} 
                         />
                       </div>
                     </div>
-                    <a className="navbar-mobile-item" href="#">Home</a>
+                    <a className="navbar-mobile-item-first" href="#">Home</a>
                     <a className="navbar-mobile-item" href="#about">About Me</a>
                     <a className="navbar-mobile-item" href="#projects">Projects</a>
                     <a className="navbar-mobile-item" href="#contact">Contact</a>
