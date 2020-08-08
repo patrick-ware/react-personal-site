@@ -52,15 +52,15 @@
 
 .navbar-mobile {
   width: 100vw;
-  height: 50px;
-  background-color: var(--NavBar);
+  height: 0px;
   position: absolute;
   top: 55px;
-  transition: all .5s ease-in-out;
+  animation: fadein 1s;
 }
 
-.navbar-mobile:target{
-  height: 200px;
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .NavBar-Link-Menu-mobile {
@@ -101,7 +101,7 @@
   display: none;
 }
 
-.NavBar-Menu-Item:hover {
+.navbar-mobile-item:hover {
   text-decoration: none;
   color: #61FAAE;
 }
