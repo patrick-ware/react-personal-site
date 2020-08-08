@@ -54,8 +54,13 @@
   width: 100vw;
   height: 50px;
   background-color: var(--NavBar);
-  position: sticky;
-  top: 0;
+  position: absolute;
+  top: 55px;
+  transition: all .5s ease-in-out;
+}
+
+.navbar-mobile:target{
+  height: 200px;
 }
 
 .NavBar-Link-Menu-mobile {
@@ -68,6 +73,7 @@
   font-size: 16pt;
   color: white;
   transition: 0.3s;
+
 }
 
 .navbar-mobile-item-first {
