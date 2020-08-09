@@ -8,6 +8,7 @@ function HomePage(props) {
     <div className="Page-Home" id="home">
         <img 
           className="Page-Home-Img"
+          alt="Image of coastline and ocean in Big Sur, California"
           src={BigSur} 
         />
       <div className="Page-Home-Title-Container">
