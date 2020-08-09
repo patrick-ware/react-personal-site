@@ -1,8 +1,6 @@
 import React from 'react';
 import './HomePage.css';
 import BigSur from '../../static/BigSur.jpg'
-import AboutMe from '../AboutMe/AboutMe.js'
-import Projects from '../Projects/Projects.js'
 
 function HomePage(props) {
   return (
