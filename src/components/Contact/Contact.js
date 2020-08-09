@@ -41,6 +41,7 @@ function Contact(props) {
               className="Icon-Container-Contact" 
               href="https://github.com/settings/profile"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FontAwesomeIcon 
                 className="Icon" 
@@ -51,6 +52,7 @@ function Contact(props) {
             className="Icon-Container-Contact"
             href="https://www.linkedin.com/in/patrick-ware/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon 
               className="Icon" 

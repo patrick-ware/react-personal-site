@@ -24,6 +24,7 @@ function Projects(props) {
               className="Icon-Container" 
               href="https://github.com/settings/profile"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FontAwesomeIcon 
                 className="Icon" 
@@ -34,6 +35,7 @@ function Projects(props) {
               className="Icon-Container" 
               href="https://github.com/settings/profile"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FontAwesomeIcon 
                 className="Icon" 
@@ -60,6 +62,7 @@ function Projects(props) {
               className="Icon-Container" 
               href="https://github.com/settings/profile"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FontAwesomeIcon 
                 className="Icon" 
@@ -70,6 +73,7 @@ function Projects(props) {
               className="Icon-Container" 
               href="https://github.com/settings/profile"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FontAwesomeIcon 
                 className="Icon" 
