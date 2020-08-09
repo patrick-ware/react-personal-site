@@ -50,7 +50,7 @@ function Projects(props) {
         <div className="Page-Projects-Desc">
           React / Python
         </div>
-        <img className="Project-Img" src={ProjectPlaceholder} />
+        <img className="Project-Img" alt="Quarantine & Chill placeholder" src={ProjectPlaceholder} />
       </div>
       <div className="Page-Projects-Container">
         <div className="Page-Projects-Title-Bar">
@@ -88,7 +88,7 @@ function Projects(props) {
         <div className="Page-Projects-Desc">
           React / Python
         </div>
-        <img className="Project-Img" src={ProjectPlaceholder} />
+        <img className="Project-Img" alt="Quarantine & Chill placeholder" src={ProjectPlaceholder} />
       </div>
     </div>
   );

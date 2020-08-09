@@ -28,7 +28,7 @@ function App() {
       <div className="NavBar">
         <div className="NavBar-Container">
           {/*<Scrollspy items={ ['about', 'projects', 'contact'] } currentClassName="is-current">*/}
-          <a className="NavBar-Link" href="#">Home</a>
+          <a className="NavBar-Link" href="#home">Home</a>
           <a className="NavBar-Link" href="#about">About Me</a>
           <a className="NavBar-Link" href="#projects">Projects</a>
           <a className="NavBar-Link" href="#contact">Contact</a>
@@ -44,7 +44,7 @@ function App() {
               showMenu 
                 ? (
                 <div className="navbar-mobile" id="navbar-mobile">
-                    <a className="navbar-mobile-item" href="#">Home</a>
+                    <a className="navbar-mobile-item" href="#home">Home</a>
                     <a className="navbar-mobile-item" href="#about">About Me</a>
                     <a className="navbar-mobile-item" href="#projects">Projects</a>
                     <a className="navbar-mobile-item" href="#contact">Contact</a>

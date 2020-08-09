@@ -5,7 +5,7 @@ import BigSur from '../../static/BigSur.jpg'
 function HomePage(props) {
   return (
   <div>
-    <div className="Page-Home">
+    <div className="Page-Home" id="home">
         <img 
           className="Page-Home-Img"
           src={BigSur} 
