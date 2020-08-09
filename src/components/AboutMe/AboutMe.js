@@ -15,7 +15,7 @@ function AboutMe(props) {
       About Me
     </div> */}
     <div className="Page-About-Container">
-      <img className="Headshot" alt="headshot photo of Patrick Ware" src={Headshot}/>
+      <img className="Headshot" alt="headshot of Patrick Ware" src={Headshot}/>
       <div className="Page-About-Title-Bar">
         <div className="Page-About-Greeting">
           Hi, I'm Patrick!

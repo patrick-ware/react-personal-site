@@ -44,10 +44,26 @@ function App() {
               showMenu 
                 ? (
                 <div className="navbar-mobile" id="navbar-mobile">
-                    <a className="navbar-mobile-item" href="#home">Home</a>
-                    <a className="navbar-mobile-item" href="#about">About Me</a>
-                    <a className="navbar-mobile-item" href="#projects">Projects</a>
-                    <a className="navbar-mobile-item" href="#contact">Contact</a>
+                    <a 
+                      className="navbar-mobile-item" 
+                      href="#home"
+                      onClick={toggleMenu}
+                    >Home</a>
+                    <a 
+                      className="navbar-mobile-item" 
+                      href="#about"
+                      onClick={toggleMenu}
+                    >About Me</a>
+                    <a 
+                      className="navbar-mobile-item" 
+                      href="#projects"
+                      onClick={toggleMenu}
+                    >Projects</a>
+                    <a 
+                      className="navbar-mobile-item" 
+                      href="#contact"
+                      onClick={toggleMenu}
+                    >Contact</a>
                 </div>
                 )
                 : (null
