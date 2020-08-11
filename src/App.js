@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import HomePage from './components/HomePage/HomePage.js'
 import AboutMe from './components/AboutMe/AboutMe.js'
@@ -9,7 +9,6 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Scrollspy from 'react-scrollspy'
 
 library.add(fab, fas)
 
