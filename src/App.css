@@ -114,6 +114,7 @@
     color: white;
     transition: 0.3s;
     display: block;
+    float: right;
   }
 
   .NavBar-Container {
