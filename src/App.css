@@ -29,6 +29,10 @@
   color: #61FAAE;
 }
 
+.NavBar-Link-Active {
+  color: #61FAAE;
+}
+
 .Menu-Icon:hover {
   text-decoration: none;
   color: #61FAAE;
@@ -39,14 +43,14 @@
 }
 
 .NavBar-Link {
-  text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size: 14pt;
   float: left;
   display: block;
-  color: white;
   text-align: center;
   padding: 14px;
+  text-decoration: none;
+  color: white;
   transition: 0.3s;
 }
 

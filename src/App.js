@@ -9,6 +9,8 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Scrollspy from 'react-scrollspy'
+
 
 library.add(fab, fas)
 
@@ -26,7 +28,11 @@ function App() {
       <HomePage/>
       <div className="NavBar">
         <div className="NavBar-Container">
-          {/*<Scrollspy items={ ['about', 'projects', 'contact'] } currentClassName="is-current">*/}
+          <Scrollspy 
+            items={ ['home','about', 'projects', 'contact'] } 
+            currentClassName="NavBar-Link-Active"
+            componentTag={ 'a' }
+          >
           <a className="NavBar-Link" href="#home">Home</a>
           <a className="NavBar-Link" href="#about">About Me</a>
           <a className="NavBar-Link" href="#projects">Projects</a>
@@ -37,7 +43,7 @@ function App() {
               icon={['fas', 'bars']} 
             />
           </div>
-            {/*</Scrollspy>*/}
+          </Scrollspy>
         </div>
             {
               showMenu 
