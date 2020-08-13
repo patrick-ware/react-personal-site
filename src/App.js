@@ -33,7 +33,7 @@ function App() {
             currentClassName="NavBar-Link-Active"
             componentTag={ 'a' }
           >
-          <a className="NavBar-Link" href="#home">Home</a>
+          <li><a className="NavBar-Link" href="#home">Home</a></li>
           <a className="NavBar-Link" href="#about">About Me</a>
           <a className="NavBar-Link" href="#projects">Projects</a>
           <a className="NavBar-Link" href="#contact">Contact</a>
@@ -45,9 +45,6 @@ function App() {
           </div>
           </Scrollspy>
         </div>
-            {
-              showMenu 
-                ? (
                 <div className="navbar-mobile" id="navbar-mobile">
                     <a 
                       className="navbar-mobile-item" 
@@ -69,10 +66,6 @@ function App() {
                       href="#contact"
                       onClick={toggleMenu}
                     >Contact</a>
-                </div>
-                )
-                : (null
-                )}
       </div>
       <AboutMe />
       <Projects />
