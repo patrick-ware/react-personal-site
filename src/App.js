@@ -30,7 +30,7 @@ function App() {
     <div>
       <HomePage/>
       {/*Bootstrap Navbar */}
-      <Navbar className="NavBar" expand="lg">
+      <Navbar collapseOnSelect className="NavBar" expand="lg">
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="NavBar-Container">
             <Nav.Link className="NavBar-Link" href="#home">Home</Nav.Link>
@@ -49,7 +49,7 @@ function App() {
         </Navbar.Toggle>
       </Navbar>
       {/*Regular Navbar */}
-      <div className="NavBar">
+      {/*<div className="NavBar">
         <div className="NavBar-Container">
           <Scrollspy 
             items={ ['home','about', 'projects', 'contact'] } 
@@ -96,7 +96,7 @@ function App() {
                 )
                 : (null
                 )}
-      </div>
+      </div>  */}
       <AboutMe />
       <Projects />
       <Contact />
