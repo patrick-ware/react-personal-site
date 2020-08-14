@@ -60,7 +60,7 @@ function App() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="NavBar-Container">
-            <Nav.Link className="NavBar-Link" href="#home">Home</Nav.Link>
+            <Nav.Link className="NavBar-Link" style={{color:"white"}} href="#home">Home</Nav.Link>
             <Nav.Link className="NavBar-Link" href="#about">About Me</Nav.Link>
             <Nav.Link className="NavBar-Link" href="#projects">Projects</Nav.Link>
             <Nav.Link className="NavBar-Link" href="#contact">Contact</Nav.Link>
