@@ -39,7 +39,8 @@
 }
 
 .NavBar-Link-Menu {
-  padding: 14px;
+  padding: 4px;
+  
 }
 
 .NavBar-Link {
@@ -96,7 +97,11 @@
 } 
 
 .Menu-Icon {
-  display: none;
+    font-size: 16pt;
+    color: white;
+    transition: 0.3s;
+    display: block;
+    float: right;
 }
 
 .navbar-mobile-item:hover {
@@ -107,18 +112,6 @@
 /* Styling for smartphones and tablets */
 @media only screen and (max-width: 768px) {
   .NavBar {
-  }
-
-  .NavBar-Link {
-    display: none;
-  }
-  
-  .Menu-Icon {
-    font-size: 16pt;
-    color: white;
-    transition: 0.3s;
-    display: block;
-    float: right;
   }
 
   .NavBar-Container {

@@ -49,15 +49,7 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
       {/*Bootstrap Navbar */}
-      <Navbar collapseOnSelect className="NavBar" expand="lg">
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="NavBar-Container">
-            <Nav.Link className="NavBar-Link" href="#home">Home</Nav.Link>
-            <Nav.Link className="NavBar-Link" href="#about">About Me</Nav.Link>
-            <Nav.Link className="NavBar-Link" href="#projects">Projects</Nav.Link>
-            <Nav.Link className="NavBar-Link" href="#contact">Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+      <Navbar collapseOnSelect sticky="top" className="NavBar" expand="lg">
         <Navbar.Toggle as="div" aria-controls="responsive-navbar-nav">
            <div className="NavBar-Link-Menu" href= '#navbar-mobile'>
             <FontAwesomeIcon 
@@ -66,6 +58,14 @@ function App() {
             />
           </div>
         </Navbar.Toggle>
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="NavBar-Container">
+            <Nav.Link className="NavBar-Link" href="#home">Home</Nav.Link>
+            <Nav.Link className="NavBar-Link" href="#about">About Me</Nav.Link>
+            <Nav.Link className="NavBar-Link" href="#projects">Projects</Nav.Link>
+            <Nav.Link className="NavBar-Link" href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
       {/*Regular Navbar */}
       {/*<div className="NavBar">
