@@ -20,6 +20,11 @@
   top: 0;
 }
 
+.NavBar:hover{
+  text-decoration: none;
+  color: #61FAAE;
+}
+
 .NavBar-Container {
   margin: 0% 15% 0% 16.5%;
 }
@@ -64,6 +69,11 @@
   transition: 0.3s;
 }
 
+.Bootstrap-NavBar-Link:hover {
+  text-decoration: none;
+  color: #61FAAE;
+}
+
 
 .navbar-mobile {
   width: 100vw;
@@ -81,8 +91,7 @@
 .Menu-Icon-mobile {
   font-size: 16pt;
   color: white;
-  transition: 0.3s;
-
+/*  transition: 0.3s;*/
 }
 
 .navbar-mobile-item-first {
