@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import HomePage from './components/HomePage/HomePage.js'
 import AboutMe from './components/AboutMe/AboutMe.js'
@@ -14,7 +15,7 @@ import Scrollspy from 'react-scrollspy'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Nav from 'react-bootstrap/Nav'
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 library.add(fab, fas)
 
@@ -31,7 +32,7 @@ function App() {
     <div>
       <HomePage/>
       {/*ORIGINAL Bootstrap Navbar */}
-      <Navbar bg="light" expand="lg">
+      {/*<Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -47,9 +48,9 @@ function App() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
+      </Navbar>*/}
       {/*Bootstrap Navbar */}
-      <Navbar collapseOnSelect sticky="top" className="NavBar" expand="lg">
+      <Navbar collapseOnSelect sticky="top" className="NavBar" expand="lg" variant="dark">
         <Navbar.Toggle as="div" aria-controls="responsive-navbar-nav">
            <div className="NavBar-Link-Menu" href= '#navbar-mobile'>
             <FontAwesomeIcon 
@@ -60,10 +61,10 @@ function App() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="NavBar-Container">
-            <Nav.Link className="NavBar-Link" style={{color:"white"}} href="#home">Home</Nav.Link>
-            <Nav.Link className="NavBar-Link" href="#about">About Me</Nav.Link>
-            <Nav.Link className="NavBar-Link" href="#projects">Projects</Nav.Link>
-            <Nav.Link className="NavBar-Link" href="#contact">Contact</Nav.Link>
+            <Nav.Link className="Bootstrap-NavBar-Link" href="#home">Home</Nav.Link>
+            <Nav.Link className="Bootstrap-NavBar-Link" href="#about">About Me</Nav.Link>
+            <Nav.Link className="Bootstrap-NavBar-Link" href="#projects">Projects</Nav.Link>
+            <Nav.Link className="Bootstrap-NavBar-Link" href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

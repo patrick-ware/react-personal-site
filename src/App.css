@@ -40,7 +40,6 @@
 
 .NavBar-Link-Menu {
   padding: 4px;
-  
 }
 
 .NavBar-Link {
@@ -48,12 +47,23 @@
   font-size: 14pt;
   float: left;
   display: block;
-  text-align: center;
   padding: 14px;
   text-decoration: none;
   color: white;
   transition: 0.3s;
 }
+
+.Bootstrap-NavBar-Link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14pt;
+/*  float: left;*/
+/*  display: block;*/
+/*  padding: 14px;*/
+/*  text-decoration: none;*/
+  color: white;
+  transition: 0.3s;
+}
+
 
 .navbar-mobile {
   width: 100vw;
