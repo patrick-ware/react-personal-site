@@ -20,11 +20,6 @@
   top: 0;
 }
 
-.NavBar:hover{
-  text-decoration: none;
-  color: #61FAAE;
-}
-
 .NavBar-Container {
   margin: 0% 15% 0% 16.5%;
 }
@@ -36,6 +31,12 @@
 
 .NavBar-Link-Active {
   color: #61FAAE;
+}
+
+.Menu-Icon {
+  font-size: 16pt;
+  color: white;
+  transition: 0.3s;
 }
 
 .Menu-Icon:hover {
@@ -70,60 +71,6 @@
 }
 
 .Bootstrap-NavBar-Link:hover {
-  text-decoration: none;
-  color: #61FAAE;
-}
-
-
-.navbar-mobile {
-  width: 100vw;
-  height: 50px;
-  position: absolute;
-  top: 55px;
-}
-
-.NavBar-Link-Menu-mobile {
-  float: right;
-  padding: 14px 0px 14px 0px;
-  right: -10px
-}
-
-.Menu-Icon-mobile {
-  font-size: 16pt;
-  color: white;
-/*  transition: 0.3s;*/
-}
-
-.navbar-mobile-item-first {
-  border-bottom: 5px solid var(--Highlight);
-  min-height: 50px;
-  background-color: var(--NavBar);
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  transition: 0.3s;
-} 
-
-.navbar-mobile-item {
-  padding: 10px 0px 10px 25px;
-  background-color: var(--Background-C);
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  display: block;
-  font-size: 14pt;
-  color: white;
-  text-align: left;
-  transition: 0.3s;
-} 
-
-.Menu-Icon {
-    font-size: 16pt;
-    color: white;
-    transition: 0.3s;
-    display: block;
-    justify-content: center;
-}
-
-.navbar-mobile-item:hover {
   text-decoration: none;
   color: #61FAAE;
 }

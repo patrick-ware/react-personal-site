@@ -13,8 +13,8 @@ import Scrollspy from 'react-scrollspy'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Nav from 'react-bootstrap/Nav'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 library.add(fab, fas)
 
@@ -49,7 +49,7 @@ function App() {
         </Navbar.Collapse>
       </Navbar>*/}
       {/*Bootstrap Navbar */}
-      <Navbar collapseOnSelect sticky="top" className="NavBar" expand="lg" variant="">
+      <Navbar collapseOnSelect sticky="top" className="NavBar" expand="md" variant="">
         <Navbar.Toggle as="div" aria-controls="responsive-navbar-nav">
            <div className="NavBar-Link-Menu" href= '#navbar-mobile'>
             <FontAwesomeIcon 
