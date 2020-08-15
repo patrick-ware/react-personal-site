@@ -15,21 +15,21 @@
   min-height: 50px;
   background-color: var(--NavBar);
   border-bottom: 5px solid var(--Highlight);
-  position: sticky;
-  position: -webkit-sticky; /* Safari */
-  top: 0;
 }
 
 .NavBar-Container {
   margin: 0% 15% 0% 16.5%;
 }
 
-.NavBar-Link:hover {
-  text-decoration: none;
-  color: #61FAAE;
+.Bootstrap-NavBar-Link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14pt;
+  color: white;
+  transition: 0.3s;
 }
 
-.NavBar-Link-Active {
+.Bootstrap-NavBar-Link:hover {
+  text-decoration: none;
   color: #61FAAE;
 }
 
@@ -46,33 +46,6 @@
 
 .NavBar-Link-Menu {
   padding: 4px;
-}
-
-.NavBar-Link {
-  font-family: 'Raleway', sans-serif;
-  font-size: 14pt;
-  float: left;
-  display: block;
-  padding: 14px;
-  text-decoration: none;
-  color: white;
-  transition: 0.3s;
-}
-
-.Bootstrap-NavBar-Link {
-  font-family: 'Raleway', sans-serif;
-  font-size: 14pt;
-/*  float: left;*/
-/*  display: block;*/
-/*  padding: 14px;*/
-/*  text-decoration: none;*/
-  color: white;
-  transition: 0.3s;
-}
-
-.Bootstrap-NavBar-Link:hover {
-  text-decoration: none;
-  color: #61FAAE;
 }
 
 /* Styling for smartphones and tablets */
