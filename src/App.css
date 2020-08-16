@@ -33,6 +33,23 @@
   color: #61FAAE;
 }
 
+.NavBar-brand {
+  text-decoration: none;
+  display: none;
+}
+
+.NavBar-brand {
+  font-size: 14pt;
+  font-family: 'Lato', sans-serif;
+  color: #F5F5F5;
+  font-weight: 100;
+}
+
+.NavBar-Link-Menu {
+  padding: 0px;
+  text-align: left;
+}
+
 .Menu-Icon {
   font-size: 16pt;
   color: white;
@@ -44,13 +61,25 @@
   color: #61FAAE;
 }
 
-.NavBar-Link-Menu {
-  padding: 4px;
-}
-
 /* Styling for smartphones and tablets */
-@media only screen and (max-width: 768px) {
-  .NavBar {
+@media only screen and (max-width: 767px) {
+
+  .NavBar-brand {
+    text-decoration: none;
+    display: flex;
+    font-size: 14pt;
+	  font-family: 'Raleway', sans-serif;
+    color: #F5F5F5;
+    font-weight: 100;
+  }
+
+  .NavBar-brand:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .Bootstrap-NavBar-Link {
+  font-size: 12pt;
   }
 
   .NavBar-Container {

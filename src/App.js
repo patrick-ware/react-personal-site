@@ -50,6 +50,9 @@ function App() {
       </Navbar>*/}
       {/*Bootstrap Navbar */}
       <Navbar collapseOnSelect sticky="top" className="NavBar" expand="md" variant="">
+        <Navbar.Brand as="a" href="#home">
+          <a className="NavBar-brand">PATRICK WARE</a>
+        </Navbar.Brand>
         <Navbar.Toggle as="div" aria-controls="responsive-navbar-nav">
            <div className="NavBar-Link-Menu" href= '#navbar-mobile'>
             <FontAwesomeIcon 
