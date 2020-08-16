@@ -11,8 +11,9 @@
 }
 
 .NavBar {
+  position: sticky;
   width: 100%;
-  min-height: 50px;
+  min-height: 40px;
   background-color: var(--NavBar);
   border-bottom: 5px solid var(--Highlight);
 }
@@ -65,7 +66,6 @@
 @media only screen and (max-width: 767px) {
 
   .NavBar-brand {
-    text-decoration: none;
     display: flex;
     font-size: 14pt;
 	  font-family: 'Raleway', sans-serif;
@@ -79,7 +79,7 @@
   }
   
   .Bootstrap-NavBar-Link {
-  font-size: 12pt;
+    font-size: 12pt;
   }
 
   .NavBar-Container {

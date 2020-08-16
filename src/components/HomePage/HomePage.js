@@ -11,15 +11,14 @@ function HomePage(props) {
           alt="Coastline and ocean in Big Sur, California"
           src={BigSur} 
         />
-      <div className="Page-Home-Title-Container">
+      <div className="Page-Home-Container">
         <div className="Page-Home-Title">
         Patrick Ware
         </div>
         <div className="Page-Home-Subtitle">
         Oakland-based software engineer
         </div>
-      </div>
-        <div className="Page-Home-Container">
+        <div className="Page-Home-Button-Container">
           <a className="Page-Home-Button" href="#about">
             About Me 
           </a>
@@ -30,6 +29,7 @@ function HomePage(props) {
             Contact 
           </a>
         </div>
+        </div>            
       </div>
     </div>
   );
