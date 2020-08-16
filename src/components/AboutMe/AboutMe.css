@@ -55,7 +55,8 @@
   flex-direction: row;
 }
 
-.Links-bottom {
+.Links-bottom { 
+  margin-top: 10px;
   display: none;
   flex-direction: row;
   justify-content: center;

@@ -30,7 +30,7 @@ function Contact(props) {
           </div>
             <a 
               className="Icon-Container-Contact" 
-              href="mailto:patrick.r.ware@gmail.com & subject=Reaching out"
+              href="mailto:patrick.r.ware@gmail.com"
             >
               <FontAwesomeIcon 
                 className="Icon" 
