@@ -55,6 +55,12 @@
   flex-direction: row;
 }
 
+.Links-bottom {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .Icon-Container {
   margin: 5px;
   display: flex;
@@ -109,6 +115,9 @@
     display: none;
   }
 
+  .Links-bottom {
+    display: flex;
+  }
   .Page-About-Title-Bar { 
     justify-content: center;
   }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import HomePage from './components/HomePage/HomePage.js'
 import AboutMe from './components/AboutMe/AboutMe.js'
 import Projects from './components/Projects/Projects.js'
@@ -8,10 +8,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Scrollspy from 'react-scrollspy'
+//import Scrollspy from 'react-scrollspy'
 
 import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 import Nav from 'react-bootstrap/Nav'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -21,11 +20,11 @@ library.add(fab, fas)
 function App() {
 
   // Set navbar menu visibility
-  const[showMenu, setShowMenu]=useState(false)
+//  const[showMenu, setShowMenu]=useState(false)
 
-  function toggleMenu(){
-    setShowMenu(!showMenu);
-  }
+//  function toggleMenu(){
+//    setShowMenu(!showMenu);
+//  }
 
   return (
     <div>
@@ -50,9 +49,7 @@ function App() {
       </Navbar>*/}
       {/*Bootstrap Navbar */}
       <Navbar collapseOnSelect sticky="top" className="NavBar" expand="md" variant="">
-        <Navbar.Brand as="a" href="#home">
-          <a className="NavBar-brand">PATRICK WARE</a>
-        </Navbar.Brand>
+        <Navbar.Brand href="#home" className="NavBar-brand">PATRICK WARE</Navbar.Brand>
         <Navbar.Toggle as="div" aria-controls="responsive-navbar-nav">
            <div className="NavBar-Link-Menu" href= '#navbar-mobile'>
             <FontAwesomeIcon 

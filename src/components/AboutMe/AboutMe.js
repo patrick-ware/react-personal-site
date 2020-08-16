@@ -52,6 +52,36 @@ function AboutMe(props) {
       </div>
     </div>
     <div className="Page-About-Bio"> I'm a software developer living in the Bay Area. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+<div className="Links-bottom">
+          <a 
+            className="Icon-Container" 
+            href="https://github.com/settings/profile"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon 
+              className="Icon" 
+              icon={['fab', 'github']} 
+            />
+          </a>
+        <a 
+          className="Icon-Container"
+          href="https://www.linkedin.com/in/patrick-ware/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon 
+            className="Icon" 
+            icon={['fab', 'linkedin-in']} 
+          />
+        </a>
+        <div className="Icon-Container">
+          <FontAwesomeIcon 
+            className="Icon" 
+            icon={['fas' , 'file-pdf']} 
+          />
+        </div>
+      </div>
     </div>
   </div>
   );
