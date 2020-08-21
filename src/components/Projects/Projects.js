@@ -60,7 +60,7 @@ function Projects(props) {
           <div className="Project-Icon-Container">
             <a 
               className="Icon-Container" 
-              href="https://github.com/settings/profile"
+              href="https://github.com/kc-frontend-team-4/quarantine-chill"
               target="_blank"
               rel="noopener noreferrer"
             >

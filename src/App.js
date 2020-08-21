@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import HomePage from './components/HomePage/HomePage.js'
 import AboutMe from './components/AboutMe/AboutMe.js'
 import Projects from './components/Projects/Projects.js'
@@ -20,11 +20,12 @@ library.add(fab, fas)
 function App() {
 
   // Set navbar menu visibility
-  const[showMenu, setShowMenu]=useState(false)
+//  const[showMenu, setShowMenu]=useState(false)
 
-  function toggleMenu(){
-    setShowMenu(!showMenu);
-  }
+//  function toggleMenu(){
+//    console.log("toggling menu...")
+//    setShowMenu(!showMenu);
+//  }
 
   return (
     <div>
@@ -49,6 +50,7 @@ function App() {
       </Navbar>*/}
       {/*Bootstrap Navbar */}
       <Navbar
+        collapseOnSelect
         sticky="top" 
         className="NavBar" 
         expand="md" 
