@@ -45,6 +45,11 @@
   color: var(--Heading-Text);
 }
 
+.Page-Projects-Desc-Minor {
+  font-size: 14pt;
+  color: var(--Heading-Text);
+}
+
 .Project-Img {
   width: 100%;
 	max-width: 500px;

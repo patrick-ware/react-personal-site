@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import HomePage from './components/HomePage/HomePage.js'
 import AboutMe from './components/AboutMe/AboutMe.js'
 import Projects from './components/Projects/Projects.js'
@@ -20,11 +20,11 @@ library.add(fab, fas)
 function App() {
 
   // Set navbar menu visibility
-//  const[showMenu, setShowMenu]=useState(false)
+  const[showMenu, setShowMenu]=useState(false)
 
-//  function toggleMenu(){
-//    setShowMenu(!showMenu);
-//  }
+  function toggleMenu(){
+    setShowMenu(!showMenu);
+  }
 
   return (
     <div>
@@ -48,7 +48,12 @@ function App() {
         </Navbar.Collapse>
       </Navbar>*/}
       {/*Bootstrap Navbar */}
-      <Navbar collapseOnSelect sticky="top" className="NavBar" expand="md" variant="">
+      <Navbar
+        sticky="top" 
+        className="NavBar" 
+        expand="md" 
+        variant=""
+      >
         <Navbar.Brand as="a" href="#home">
           <a className="NavBar-brand" href="#home">PATRICK WARE</a>
         </Navbar.Brand>

@@ -20,7 +20,7 @@ function Projects(props) {
             Project ABC
           </div>
           <div className="Project-Icon-Container">
-            <a 
+            <a
               className="Icon-Container" 
               href="https://github.com/settings/profile"
               target="_blank"
@@ -55,7 +55,7 @@ function Projects(props) {
       <div className="Page-Projects-Container">
         <div className="Page-Projects-Title-Bar">
           <div className="Page-Projects-Name">
-            Project XYZ
+            Quarantine & Chill
           </div>
           <div className="Project-Icon-Container">
             <a 
@@ -71,7 +71,7 @@ function Projects(props) {
             </a>
             <a 
               className="Icon-Container" 
-              href="https://github.com/settings/profile"
+              href="https://quarantine-chill.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -83,10 +83,10 @@ function Projects(props) {
           </div>
         </div>
         <div className="Page-Projects-Desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed...
+          A full stack web app that generates movie and meal pairings for you, and allows you to browse and add to community favorites. Try it out!
         </div>
-        <div className="Page-Projects-Desc">
-          React / Python
+        <div className="Page-Projects-Desc-Minor">
+          React / Node.js / Express / MongoDB 
         </div>
         <img className="Project-Img" alt="Quarantine & Chill placeholder" src={ProjectPlaceholder} />
       </div>
