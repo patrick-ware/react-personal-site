@@ -19,13 +19,25 @@ function HomePage(props) {
         Oakland-based software engineer
         </div>
         <div className="Page-Home-Button-Container">
-          <a className="Page-Home-Button" href="#about">
+          <a 
+            className="Page-Home-Button" 
+            href="#about"
+            onClick={props.collapseFunction}
+          >
             About Me 
           </a>
-          <a className="Page-Home-Button" href="#projects">
+          <a 
+            className="Page-Home-Button" 
+            href="#projects"
+            onClick={props.collapseFunction}
+          >
             Projects 
           </a>
-          <a className="Page-Home-Button" href="#contact"> 
+          <a 
+            className="Page-Home-Button" 
+            href="#contact"
+            onClick={props.collapseFunction}
+          > 
             Contact 
           </a>
         </div>

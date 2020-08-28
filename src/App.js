@@ -32,9 +32,20 @@ function App() {
     setTimeout(toggleMenu, 400);
   }
 
+  function menuDelayHomepage(){
+    console.log("menuDelayHomepage invoked...")
+    setTimeout(collapseMenu, 600);
+  }
+
+  function collapseMenu(){
+    setShowMenu(false)
+  }
+
   return (
     <div>
-      <HomePage/>
+      <HomePage
+        collapseFunction={menuDelayHomepage}
+      />
       <Navbar
         expanded={showMenu}
         onSelect={menuDelay}
