@@ -29,7 +29,7 @@ function App() {
 
   function menuDelay(){
     console.log("menuDelay invoked...")
-    setTimeout(toggleMenu, 400);
+    setTimeout(toggleMenu, 600);
   }
 
   function menuDelayHomepage(){
