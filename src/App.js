@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import HomePage from './components/HomePage/HomePage.js'
 import AboutMe from './components/AboutMe/AboutMe.js'
 import Projects from './components/Projects/Projects.js'
@@ -20,12 +20,24 @@ library.add(fab, fas)
 function App() {
 
   // Set navbar menu visibility
-//  const[showMenu, setShowMenu]=useState(false)
+  const[showMenu, setShowMenu]=useState(false)
 
-//  function toggleMenu(){
-//    console.log("toggling menu...")
-//    setShowMenu(!showMenu);
-//  }
+  function toggleMenu(){
+    console.log("toggling menu...")
+    setShowMenu(!showMenu);
+  }
+
+  function menuDelay(){
+    console.log("menuDelay invoked...")
+    setTimeout(toggleMenu, 2000);
+  }
+
+//   useEffect(() => {
+//      const timer = setTimeout(() => {
+//        toggleMenu('menu toggled');
+//      }, 1000);
+//      return () => clearTimeout(timer);
+//    },[]);
 
   return (
     <div>
@@ -50,7 +62,8 @@ function App() {
       </Navbar>*/}
       {/*Bootstrap Navbar */}
       <Navbar
-        collapseOnSelect
+        expanded={showMenu}
+        onSelect={menuDelay}
         sticky="top" 
         className="NavBar" 
         expand="md" 
@@ -59,7 +72,7 @@ function App() {
         <Navbar.Brand as="a" href="#home">
           <a className="NavBar-brand" href="#home">PATRICK WARE</a>
         </Navbar.Brand>
-        <Navbar.Toggle as="div" aria-controls="responsive-navbar-nav">
+        <Navbar.Toggle as="div" aria-controls="responsive-navbar-nav" onClick={toggleMenu}>
            <div className="NavBar-Link-Menu" href= '#navbar-mobile'>
             <FontAwesomeIcon 
               className="Menu-Icon" 

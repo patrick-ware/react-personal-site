@@ -51,7 +51,7 @@ function AboutMe(props) {
         </div>
       </div>
     </div>
-    <div className="Page-About-Bio"> I'm a software developer living in the Bay Area. I believe in the value of good data and the importance of efficient design. Check out some of my projects below! </div>
+    <div className="Page-About-Bio"> I'm a software developer and GIS professional living in the Bay Area. I believe in simple, effective design as the best way to convey information, and in the importance of good data. Check out some of my projects below! </div>
 <div className="Links-bottom">
           <a 
             className="Icon-Container" 
