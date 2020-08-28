@@ -29,7 +29,7 @@ function App() {
 
   function menuDelay(){
     console.log("menuDelay invoked...")
-    setTimeout(toggleMenu, 2000);
+    setTimeout(toggleMenu, 400);
   }
 
 //   useEffect(() => {
