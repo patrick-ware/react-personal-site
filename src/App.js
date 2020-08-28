@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import HomePage from './components/HomePage/HomePage.js'
 import AboutMe from './components/AboutMe/AboutMe.js'
 import Projects from './components/Projects/Projects.js'
