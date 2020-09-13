@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import HomePage from './components/HomePage/HomePage.js'
 import AboutMe from './components/AboutMe/AboutMe.js'
 import Projects from './components/Projects/Projects.js'
@@ -20,22 +20,22 @@ library.add(fab, fas)
 
 function App() {
 
-  const [windowDimension, setWindowDimension] = useState(null);
+//  const [windowDimension, setWindowDimension] = useState(null);
 
-  useEffect(() => {
-    setWindowDimension(window.innerWidth);
-  }, []);
+//  useEffect(() => {
+//    setWindowDimension(window.innerWidth);
+//  }, []);
 
-  useEffect(() => {
-    function handleResize() {
-      setWindowDimension(window.innerWidth);
-    }
+//  useEffect(() => {
+//    function handleResize() {
+//      setWindowDimension(window.innerWidth);
+//    }
 
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+//    window.addEventListener("resize", handleResize);
+//    return () => window.removeEventListener("resize", handleResize);
+//  }, []);
 
-  const isMobile = windowDimension <= 640;
+//  const isMobile = windowDimension <= 640;
 
   // Set navbar menu visibility
   const[showMenu, setShowMenu]=useState(false)
