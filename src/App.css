@@ -1,5 +1,5 @@
 :root {
-  overflow-y: scroll; /* has to be scroll, not auto */
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
   --Background-A: #F5F5F5;
