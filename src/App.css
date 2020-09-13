@@ -13,6 +13,7 @@
 }
 
 .NavBar {
+  -webkit-overflow-scrolling: touch;
   width: 100%;
   background-color: var(--NavBar);
   border-bottom: 5px solid var(--Highlight);

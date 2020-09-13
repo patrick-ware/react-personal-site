@@ -1,4 +1,5 @@
 .Page-Home {
+  -webkit-overflow-scrolling: touch;
   display: flex;
   flex-direction: column;
   background: #1E242F;

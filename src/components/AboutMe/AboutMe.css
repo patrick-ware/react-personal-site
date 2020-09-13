@@ -1,4 +1,5 @@
 .Page-About {
+  -webkit-overflow-scrolling: touch;
   display: flex;
   flex-direction: column;
   align-items: center;
