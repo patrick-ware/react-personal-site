@@ -111,7 +111,6 @@ function App() {
           </ul>
         </div>
       </nav>*/}
-      // default nav bar 
       <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
