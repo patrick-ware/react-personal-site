@@ -81,10 +81,12 @@
   }
   
   .Bootstrap-NavBar-Link {
+    -webkit-overflow-scrolling: auto !important;
     font-size: 12pt;
   }
 
   .NavBar-Container {
+    -webkit-overflow-scrolling: auto !important;
     margin: 0% 2% 0% 2%;
   }
 }
