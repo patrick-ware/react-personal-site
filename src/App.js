@@ -14,7 +14,10 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import smoothscroll from 'smoothscroll-polyfill';
 
+// kick off the polyfill!
+smoothscroll.polyfill();
 
 library.add(fab, fas)
 
