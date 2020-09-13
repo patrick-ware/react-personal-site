@@ -21,6 +21,11 @@ library.add(fab, fas)
 function App() {
   smoothscroll.polyfill();
 
+  // scroll to projects
+  function projectScroll(){
+    document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' });
+  }
+
 //  const [windowDimension, setWindowDimension] = useState(null);
 
 //  useEffect(() => {
@@ -85,7 +90,7 @@ function App() {
           <Nav className="NavBar-Container">
             <Nav.Link className="Bootstrap-NavBar-Link" href="#home">Home</Nav.Link>
             <Nav.Link className="Bootstrap-NavBar-Link" href="#about">About Me</Nav.Link>
-            <Nav.Link className="Bootstrap-NavBar-Link" href="#projects">Projects</Nav.Link>
+            <Nav.Link className="Bootstrap-NavBar-Link" href="#projects" onClick={projectScroll}>Projects</Nav.Link>
             <Nav.Link className="Bootstrap-NavBar-Link" href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
