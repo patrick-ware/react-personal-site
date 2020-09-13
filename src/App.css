@@ -1,3 +1,7 @@
+* {
+    -webkit-overflow-scrolling: touch;
+}
+
 :root {
     scroll-behavior: smooth;
   --Background-A: #F5F5F5;

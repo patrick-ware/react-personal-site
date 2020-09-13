@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import HomePage from './components/HomePage/HomePage.js'
 import AboutMe from './components/AboutMe/AboutMe.js'
 import Projects from './components/Projects/Projects.js'
@@ -15,9 +15,27 @@ import Nav from 'react-bootstrap/Nav'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 library.add(fab, fas)
 
 function App() {
+
+  const [windowDimension, setWindowDimension] = useState(null);
+
+  useEffect(() => {
+    setWindowDimension(window.innerWidth);
+  }, []);
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimension(window.innerWidth);
+    }
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const isMobile = windowDimension <= 640;
 
   // Set navbar menu visibility
   const[showMenu, setShowMenu]=useState(false)
@@ -46,10 +64,37 @@ function App() {
       <HomePage
         collapseFunction={menuDelayHomepage}
       />
+      {/*Hasier nav bar
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-0">
+          <a className="navbar-brand" href="index.html">Hasier Pastor Larrieta</a>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsed-content">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+        <div className="collapse navbar-collapse" id="collapsed-content">
+          <ul className="navbar-nav ml-auto">
+            <a className="nav-link" href="#about">About</a>
+            <a className="nav-link" href="#projects">Projects</a>
+          </ul>
+        </div>
+      </nav>*/}
+      {/*default nav bar 
+      <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#about">About Me</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>*/}
+    {/*Pato Nav */}
       <Navbar
         expanded={showMenu}
         onSelect={menuDelay}
-        sticky="top" 
+        sticky="top"
         className="NavBar" 
         expand="md" 
         variant=""
