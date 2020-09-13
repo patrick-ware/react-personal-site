@@ -61,6 +61,34 @@ function App() {
 
   return (
     <div>
+      <Navbar
+        expanded={showMenu}
+        onSelect={menuDelay}
+        sticky="top"
+        className="NavBar" 
+        expand="md" 
+        variant=""
+      >
+        <Navbar.Brand as="a" href="#home">
+          <a className="NavBar-brand" href="#home">PATRICK WARE</a>
+        </Navbar.Brand>
+        <Navbar.Toggle as="div" aria-controls="responsive-navbar-nav" onClick={toggleMenu}>
+           <div className="NavBar-Link-Menu" href= '#navbar-mobile'>
+            <FontAwesomeIcon 
+              className="Menu-Icon" 
+              icon={['fas', 'bars']} 
+            />
+          </div>
+        </Navbar.Toggle>
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="NavBar-Container">
+            <Nav.Link className="Bootstrap-NavBar-Link" href="#home">Home</Nav.Link>
+            <Nav.Link className="Bootstrap-NavBar-Link" href="#about">About Me</Nav.Link>
+            <Nav.Link className="Bootstrap-NavBar-Link" href="#projects">Projects</Nav.Link>
+            <Nav.Link className="Bootstrap-NavBar-Link" href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
       <HomePage
         collapseFunction={menuDelayHomepage}
       />
@@ -91,34 +119,7 @@ function App() {
       </Navbar.Collapse>
     </Navbar>*/}
     {/*Pato Nav */}
-      <Navbar
-        expanded={showMenu}
-        onSelect={menuDelay}
-        sticky="top"
-        className="NavBar" 
-        expand="md" 
-        variant=""
-      >
-        <Navbar.Brand as="a" href="#home">
-          <a className="NavBar-brand" href="#home">PATRICK WARE</a>
-        </Navbar.Brand>
-        <Navbar.Toggle as="div" aria-controls="responsive-navbar-nav" onClick={toggleMenu}>
-           <div className="NavBar-Link-Menu" href= '#navbar-mobile'>
-            <FontAwesomeIcon 
-              className="Menu-Icon" 
-              icon={['fas', 'bars']} 
-            />
-          </div>
-        </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="NavBar-Container">
-            <Nav.Link className="Bootstrap-NavBar-Link" href="#home">Home</Nav.Link>
-            <Nav.Link className="Bootstrap-NavBar-Link" href="#about">About Me</Nav.Link>
-            <Nav.Link className="Bootstrap-NavBar-Link" href="#projects">Projects</Nav.Link>
-            <Nav.Link className="Bootstrap-NavBar-Link" href="#contact">Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+
       <AboutMe />
       <Projects />
       <Contact />
