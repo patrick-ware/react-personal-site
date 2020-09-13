@@ -15,11 +15,12 @@
   width: 100%;
   background-color: var(--NavBar);
   border-bottom: 5px solid var(--Highlight);
-  z-index: 1;
+  z-index: 2;
 }
 
 .NavBar-Container {
   margin: 0% 15% 0% 16.5%;
+  z-index: 2;
 }
 
 .Bootstrap-NavBar-Link {
@@ -27,7 +28,7 @@
   font-size: 14pt;
   color: white;
   transition: 0.3s;
-  z-index: 1;
+  z-index: 2;
 }
 
 .Bootstrap-NavBar-Link:hover {
