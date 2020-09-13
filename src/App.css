@@ -11,7 +11,7 @@
 }
 
 .NavBar {
-  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: auto !important;
   width: 100%;
   background-color: var(--NavBar);
   border-bottom: 5px solid var(--Highlight);
@@ -81,12 +81,10 @@
   }
   
   .Bootstrap-NavBar-Link {
-    -webkit-overflow-scrolling: auto !important;
     font-size: 12pt;
   }
 
   .NavBar-Container {
-    -webkit-overflow-scrolling: auto !important;
     margin: 0% 2% 0% 2%;
   }
 }
