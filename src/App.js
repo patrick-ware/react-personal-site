@@ -111,7 +111,7 @@ function App() {
           </ul>
         </div>
       </nav>*/}
-      {/*default nav bar 
+      // default nav bar 
       <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -123,9 +123,7 @@ function App() {
             <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
-    </Navbar>*/}
-    {/*Pato Nav */}
-
+    </Navbar>
       <AboutMe />
       <Projects />
       <Contact />

@@ -11,7 +11,6 @@
 }
 
 .NavBar {
-  -webkit-overflow-scrolling: auto !important;
   width: 100%;
   background-color: var(--NavBar);
   border-bottom: 5px solid var(--Highlight);
@@ -81,10 +80,13 @@
   }
   
   .Bootstrap-NavBar-Link {
+    background-color: var(--NavBar);
     font-size: 12pt;
+    width: 95vw;
   }
 
   .NavBar-Container {
+    position: absolute;
     margin: 0% 2% 0% 2%;
   }
 }
