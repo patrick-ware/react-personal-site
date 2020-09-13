@@ -16,12 +16,10 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import smoothscroll from 'smoothscroll-polyfill';
 
-// kick off the polyfill!
-smoothscroll.polyfill();
-
 library.add(fab, fas)
 
 function App() {
+  smoothscroll.polyfill();
 
 //  const [windowDimension, setWindowDimension] = useState(null);
 
